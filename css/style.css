@@ -3,3 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #FDFDFD;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline-block;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+/* inzio header */
+header nav{
+  padding-left: 20px;
+  padding-bottom: 13px;
+  color: #5f6368;
+  border-bottom: 1px solid #5f6368;
+}
+/* menu top */
+header nav .menu-top ul li a{
+  font-size: 22px;
+  font-weight: 400;
+}
+header nav .menu-top ul li a:hover{
+  text-decoration: underline;
+}
+header nav .menu-top ul li a img{
+  height: 60px;
+  vertical-align: middle;
+}
+/* fine menu top */
+/* menu bottom */
+header nav .menu-bottom ul li a{
+  font-weight: 500;
+  margin-right: 40px;
+  padding-bottom: 10px;
+}
+header nav .menu-bottom ul li:last-child a{
+  color: #3367D6;
+  border-bottom: 3px solid #3367D6;
+}
+/* fine menu bottom */
+/* fine header */
