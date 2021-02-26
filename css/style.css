@@ -7,6 +7,10 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: #FDFDFD;
 }
+.container{
+  width: 60%;
+  margin: auto;
+}
 ul{
   list-style: none;
 }
