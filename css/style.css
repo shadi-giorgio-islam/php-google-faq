@@ -54,6 +54,9 @@ header nav .menu-bottom ul li:last-child a{
 /* fine menu bottom */
 /* fine header */
 /* inizio main */
+main{
+  padding-bottom: 40px;
+}
 main .container h2{
   color: #3c4043;
   font-size: 24px;
@@ -65,3 +68,23 @@ main .container p{
   line-height: 1.6;
 }
 /* fine main */
+/* inizio footer */
+footer{
+  height: 30px;
+  background-color: #F5F5F5;
+  color: #3c4043;
+}
+footer .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container ul li a{
+  font-size: 10px;
+  margin-right: 10px;
+}
+footer .container .lang{
+  padding-top: 5px;
+}
+/* fine footer */

@@ -53,6 +53,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <title>Domande frequenti-Privacy e termini</title>
 </head>
 <body>
@@ -95,5 +96,24 @@
     </div>
   </main>
   <!-- fine main -->
+  <!-- inzio footer -->
+  <footer>
+    <div class="container">
+      <ul>
+        <li><a href="#">Google</a></li>
+        <li><a href="#">Tutto su Google</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Termini</a></li>
+      </ul>
+      <div class="lang">
+        <i class="fas fa-comment-alt"></i>
+        <select>
+          <option value="Italiano">Italiano</option>
+          <option value="English">English</option>
+        </select>
+      </div>
+    </div>
+  </footer>
+  <!-- fine footer -->
 </body>
 </html>
